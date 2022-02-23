@@ -1,0 +1,1623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:res="http://www.esri.com/metadata/res/" xmlns:gmd="http://www.isotc211.org/2005/gmd">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style type="text/css" id="internalStyle" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+    body {
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: #000020;
+      background-color: #FFFFFF;
+    }
+    div.itemDescription {
+      margin-right: 2em;
+      margin-bottom: 2em;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    h1.idHeading {
+      color: #008FAF;
+      text-align: center;
+    }
+    h1.gpHeading {
+      color: black;
+    }
+    span.idHeading {
+      color: #007799;
+      font-weight: bold;
+    }
+    .center {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    img {
+      width: 210px;
+      border-width: 1px;
+      border-style: outset;
+    }
+    img.center {
+      text-align: center;
+      display: block;
+      border-color: #666666;
+    }
+    img.enclosed {
+      width: 60%;
+    }
+    img.gp {
+      width: auto;
+      border-style: none;
+      margin-top: -1.2em;
+    }
+    .noThumbnail {
+      color: #888888;
+      font-size: 1.2em;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding: 3em 3em;
+      position: relative;
+      text-align: center;
+      width: 210px;
+      height: 140px;
+    }
+    .noContent {
+      color: #888888;
+    }
+    .itemInfo p {
+      margin-top: -0.1em;
+    }
+    .itemInfo img {
+      width: auto;
+      border: none;
+    }
+    .gpItemInfo p {
+      margin-top: -1.2em;
+    }
+    div.box {
+      margin-left: 1em;
+    }
+    div.hide {
+      display: none;
+    }
+    div.show {
+      display: block;
+    }
+    span.hide {
+      display: none;
+    }
+    span.show {
+      display: inline-block;
+    }
+    .backToTop a {
+      color: #DDDDDD;
+      font-style: italic;
+      font-size: 0.85em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    h2.gp {
+      color: #00709C;
+    }
+    .gpsubtitle {
+      color: black;
+      font-size: 1.2em;
+	  font-weight: normal;
+    }
+    .gptags {
+      color: black;
+      font-size: 0.8em;
+	  font-weight: normal;
+    }
+    .head {
+      font-size: 1.3em;
+    }
+    a:link {
+      color: #098EA6;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #098EA6;
+      text-decoration: none;
+    }
+    a:link:hover, a:visited:hover {
+      color: #007799;
+      background-color: #C6E6EF;
+    }
+    h2.iso a {
+      color: #007799;
+      font-weight: bold;
+    }
+    .iso a:link {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:visited {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:link:hover, .iso a:visited:hover {
+      color: #006688;
+      background-color: #C6E6EF;
+    }
+    h2.fgdc a {
+      color: #888888;
+      font-weight: bold;
+    }
+    .fgdc a:link {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:visited {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:link:hover, .fgdc a:visited:hover {
+      color: #777777;
+      background-color: #C6E6EF;
+    }
+	h3 {
+		font-size: 1em; 
+		color: #00709C;
+	}
+    .backToTop {
+      color: #AAAAAA;
+      margin-left: 1em;
+    }
+    p.gp {
+      margin-top: .6em;
+      margin-bottom: .6em;
+    }
+    ul ul {
+      list-style-type: square;
+    }
+    ul li.iso19139heading {
+      margin-left: -3em;
+	  list-style: none;
+	  font-weight: bold;
+      color: #666666;
+    }
+    dl {
+      margin: 0;
+      padding: 0;
+    }
+    dl.iso {
+      background-color: #F2F9FF;
+    }
+    dl.esri {
+      background-color: #F2FFF9;
+    }
+    dl.subtype {
+      width: 40em;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      padding: 0;
+    }
+    dt {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dt {
+      width: 60%;
+      float: left;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dt.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    dd {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dd {
+      float: left;
+      width: 25%;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dd.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    .isoElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .esriElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .element {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #666666;
+    }
+    unknownElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #333333;
+    }
+    .sync {
+      color: #006400;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .syncOld {
+      color: #888888;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .textOld {
+      color: #999999;
+    }
+    .code {
+      font-family: monospace;
+    }
+    pre.wrap {
+      width: 96%;
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 1em;
+      margin: 0 0 1em 0.6em;
+      white-space: pre-wrap;       /* css-3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    pre.gp {
+      font-family: Courier New, Courier, monospace;
+      line-height: 1.2em;
+    }
+    .gpcode {
+      margin-left:15px;
+      border: 1px dashed #ACC6D8;
+      padding: 10px;
+      background-color:#EEEEEE;
+      height: auto;
+      overflow: scroll; 
+      width: 96%;
+    }
+    tr {
+      vertical-align: top;
+    }
+    th {
+      text-align: left;
+      background: #dddddd;
+      vertical-align: bottom;
+      font-size: 0.8em;
+    }
+    td {
+      background: #EEEEEE;
+      color: black;
+      vertical-align: top;
+      font-size: 0.8em;
+    }
+    td.description {
+      background: white;
+    }
+  </style>
+    <script type="text/javascript" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+	/*  */
+		function hideShow(divID) {
+			var item = document.getElementById(divID);
+			var itemShow = document.getElementById(divID + 'Show');
+			var itemHide = document.getElementById(divID + 'Hide');
+			if (item) {
+				if (item.className == 'hide') {
+					item.className='show';
+					itemShow.className='hide';
+					itemHide.className='show';
+				}
+				else {
+					item.className='hide';
+					itemShow.className='show';
+					itemHide.className='hide';
+				}
+			}
+		}
+	/*  */
+	</script>
+  </head>
+  <body oncontextmenu="return true">
+    <div class="itemDescription" id="overview" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <h1 class="idHeading">Washington Large Fires 1973-2016</h1>
+      <div class="center">
+        <!-- <div class="noThumbnail">Thumbnail Not Available</div> -->
+        <div class="center"><img name="thumbnail" id="thumbnail" alt="Thumbnail" title="Thumbnail" src="wa_lrg_fires.jpg" class="center" />
+      </div>
+      <p class="center">
+        <span class="idHeading">Tags</span>
+        <br />Washington Large Fires, Fire perimeters, Wildland fire, Washington</p>
+      <br />
+      <div class="itemInfo">
+        <span class="idHeading">Summary</span>
+        <p>
+          <p>This data set was created to achieve consistant data, throughout Oregon and Washington for management, planning or analysis involving large fire history</p>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Description</span>
+        <p>
+          <DIV STYLE="text-align:Left;">
+            <DIV>
+              <DIV>
+                <P>
+                  <SPAN>Washington Large Fire dataset represents large fires in Washington State typically over 100 acres, but smaller perimeters have been included when data is available.</SPAN>
+                </P>
+                <P>
+                  <SPAN>Collecting accurate large fire perimeters is a coordinated effort between federal, state and local agencies. The Northwest Coordination Center in Portland, Oregon heads this effort by compiling daily fire perimeters from the National Interagencey Fire Center (NIFC) ftp site during fire season and at the end of each calendar year. The purpose of this data is to provide consistent spatial data throughout Washington for management, planning or analysis involving fire history. Fire perimeter polygons represent final fire perimeters provided by jurisdictional agency, local agencies or Incident Management Teams assigned to the fire. Final products for each polygon are maintained at the local level to track the area affected by fire. This dataset dates back to 1973, some data may be missing or inaccurate. DNR works in coordination with other agencies to make every attempt to get complete and correct data at the end of each fire season.</SPAN>
+                </P>
+                <P>
+                  <SPAN />
+                </P>
+              </DIV>
+            </DIV>
+          </DIV>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Credits</span>
+        <p>
+          <p>Data is compiled in coordination with Northwest Coordination Center in Portland, OR.</p>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Use limitations</span>
+        <p>
+          <DIV STYLE="text-align:Left;">
+            <DIV>
+              <DIV>
+                <P>
+                  <SPAN>
+                    <SPAN>Restrictions and legal prerequisites for using the data set after access is granted. (How can or should those with access use the data set?) This digital data and metadata, (hereinafter collectively referred to as the "information"), are provided on an "AS IS", "AS AVAILABLE" and "WITH ALL FAULTS" basis. Neither Department of Natural Resources nor any of its officials and employees makes any warranty of any kind for this information, express or implied, including but not limited to any warranties of merchantability or fitness for a particular purpose, nor shall the distribution of this information constitute any warranty. The information is collected from various sources and will change over time without notice. DNR and its officials and employees assume no responsibility or legal liability for the accuracy, completeness, reliability, timeliness, or usefulness of any of the information provided nor do they represent that the use of any of the information will not infringe privately owned rights. The information is not intended to constitute advice nor is it to be used as a substitute for specific advice from a licensed professional. You should not act (or refrain from acting) based upon the information without independently verifying the information and, as necessary, obtaining professional advice regarding your particular facts and circumstances. References to any specific commercial product, process, and service by trade name, trademark, or manufacturer do not constitute or imply endorsement, recommendation, or favoring by DNR and its officials and employees.</SPAN>
+                  </SPAN>
+                </P>
+                <P>
+                  <SPAN />
+                </P>
+              </DIV>
+            </DIV>
+          </DIV>
+        </p>
+      </div>
+    </div>
+    <h2 class="iso head">
+      <a href="#arcgisMetadata" onclick="hideShow('arcgisMetadata')" title="Content created and managed in the Description tab">ArcGIS Metadata <span id="arcgisMetadataShow" class="hide">▼</span><span id="arcgisMetadataHide" class="show">►</span></a>
+    </h2>
+    <div class="show" id="arcgisMetadata" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="box arcgis">
+        <div>
+          <a name="TopArcGIS" id="TopArcGIS" />
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0ELDA')" href="#ID0ELDA">Citation 
+			<span id="ID0ELDAShow" class="hide">▼</span><span id="ID0ELDAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0ELDA">
+          <dt>
+            <span class="esriElement">Title</span> Washington Large Fires 1973-2016</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Presentation formats</span> 
+	    digital map</dt>
+          <dt>
+            <span class="esriElement">FGDC geospatial presentation format</span> 
+	    vector digital data</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Collection title</span> Washington Large Fires 1973-2016</dt>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0ELDA')" href="#ID0ELDA">Hide Citation ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0TAIDA')" href="#ID0TAIDA">Resource Details 
+				<span id="ID0TAIDAShow" class="hide">▼</span><span id="ID0TAIDAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0TAIDA">
+          <dt>
+            <span class="esriElement">Dataset languages</span> 
+	English</dt>
+          <dt>
+            <span class="esriElement">Dataset character set</span> 
+	    utf8 - 8 bit UCS Transfer Format</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Spatial representation type</span> 
+	    vector</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Processing environment</span> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Credits</span>
+          </dt>
+          <dl>
+            <dd>
+              <pre class="wrap">Data is compiled in coordination with Northwest Coordination Center in Portland, OR.</pre>
+            </dd>
+          </dl>
+          <dt>
+            <span class="esriElement">ArcGIS item properties</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Location</span> file://\\dnr\divisions\RP_GIS\historic_fires\metadata\test_wa_large_fires</dt>
+            <dl>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Access protocol</span> Local Area Network</dt>
+            </dl>
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0TAIDA')" href="#ID0TAIDA">Hide Resource Details ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAEDA')" href="#ID0EAEDA">Extents 
+				<span id="ID0EAEDAShow" class="hide">▼</span><span id="ID0EAEDAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAEDA">
+          <dt>
+            <span class="esriElement">Extent</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Geographic extent</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Bounding rectangle</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">West longitude</span> -123.94615</dt>
+                <dt>
+                  <span class="esriElement">East longitude</span> -116.504119</dt>
+                <dt>
+                  <span class="esriElement">South latitude</span> 44.968381</dt>
+                <dt>
+                  <span class="esriElement">North latitude</span> 49.147852</dt>
+              </dl>
+              <br />
+            </dl>
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAEDA')" href="#ID0EAEDA">Hide Extents ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EBDA')" href="#ID0EBDA">Resource Maintenance 
+				<span id="ID0EBDAShow" class="hide">▼</span><span id="ID0EBDAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EBDA">
+          <dt>
+            <span class="esriElement">Resource maintenance</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Update frequency</span> 
+			annually</dt>
+            <br />
+            <br />
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EBDA')" href="#ID0EBDA">Hide Resource Maintenance ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EADA')" href="#ID0EADA">Resource Constraints 
+				<span id="ID0EADAShow" class="hide">▼</span><span id="ID0EADAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EADA">
+          <dt>
+            <span class="esriElement">Constraints</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Limitations of use</span>
+            </dt>
+            <dl>
+              <dd>
+                <pre class="wrap">Restrictions and legal prerequisites for using the data set after access is granted. (How can or should those with access use the data set?) This digital data and metadata, (hereinafter collectively referred to as the "information"), are provided on an "AS IS", "AS AVAILABLE" and "WITH ALL FAULTS" basis. Neither Department of Natural Resources nor any of its officials and employees makes any warranty of any kind for this information, express or implied, including but not limited to any warranties of merchantability or fitness for a particular purpose, nor shall the distribution of this information constitute any warranty. The information is collected from various sources and will change over time without notice. DNR and its officials and employees assume no responsibility or legal liability for the accuracy, completeness, reliability, timeliness, or usefulness of any of the information provided nor do they represent that the use of any of the information will not infringe privately owned rights. The information is not intended to constitute advice nor is it to be used as a substitute for specific advice from a licensed professional. You should not act (or refrain from acting) based upon the information without independently verifying the information and, as necessary, obtaining professional advice regarding your particular facts and circumstances. References to any specific commercial product, process, and service by trade name, trademark, or manufacturer do not constitute or imply endorsement, recommendation, or favoring by DNR and its officials and employees.</pre>
+              </dd>
+            </dl>
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EADA')" href="#ID0EADA">Hide Resource Constraints ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EACA')" href="#ID0EACA">Spatial Data Properties 
+				<span id="ID0EACAShow" class="hide">▼</span><span id="ID0EACAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EACA">
+          <a onclick="hideShow('ID0EAACA')" href="#ID0EAACA">
+            <dt>
+              <span class="esriElement">Vector</span> 
+<span id="ID0EAACAShow" class="hide">▼</span><span id="ID0EAACAHide" class="show">►</span></dt>
+          </a>
+          <div class="show" id="ID0EAACA">
+            <dl>
+              <dt>
+                <span class="esriElement">Geometric objects</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">Object type</span> 
+			complex</dt>
+                <dt>
+                  <span class="esriElement">Object count</span> 509</dt>
+              </dl>
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EAACA')" href="#ID0EAACA">Hide Vector ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EACA')" href="#ID0EACA">Hide Spatial Data Properties ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0ELA')" href="#ID0ELA">Fields 
+			<span id="ID0ELAShow" class="hide">▼</span><span id="ID0ELAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0ELA">
+          <a onclick="hideShow('ID0EALA')" href="#ID0EALA">
+            <dt>
+              <span class="esriElement">Details for object</span> Washington Large Fires 1973-2016 
+					<span id="ID0EALAShow" class="hide">▼</span><span id="ID0EALAHide" class="show">►</span></dt>
+          </a>
+          <div class="show" id="ID0EALA">
+            <dl>
+              <dt>
+                <span class="esriElement">Definition</span>
+              </dt>
+              <dl>
+                <dd>
+                  <pre class="wrap">Large fire perimeters for fires in Washington typically over 100 acres, but smaller perimeters have been included when data is available.</pre>
+                </dd>
+              </dl>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EMALA')" href="#ID0EMALA">
+                <dt>
+                  <span class="esriElement">Field</span> OBJECTID</dt> 
+		<span id="ID0EMALAShow" class="hide">▼</span><span id="ID0EMALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EMALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Internal feature number.</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description of values</span> Sequential unique whole numbers that are automatically generated.</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EMALA')" href="#ID0EMALA">Hide Field OBJECTID ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0ELALA')" href="#ID0ELALA">
+                <dt>
+                  <span class="esriElement">Field</span> SHAPE</dt> 
+		<span id="ID0ELALAShow" class="hide">▼</span><span id="ID0ELALAHide" class="show">►</span></a>
+              <div class="show" id="ID0ELALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Feature geometry.</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description of values</span> Coordinates defining the features.</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0ELALA')" href="#ID0ELALA">Hide Field SHAPE ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EKALA')" href="#ID0EKALA">
+                <dt>
+                  <span class="esriElement">Field</span> UnitID</dt> 
+		<span id="ID0EKALAShow" class="hide">▼</span><span id="ID0EKALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EKALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Abbreviation for the hosting unit of the agency that was responsible for all or some management of the incident.</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EKALA')" href="#ID0EKALA">Hide Field UnitID ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EJALA')" href="#ID0EJALA">
+                <dt>
+                  <span class="esriElement">Field</span> Agency</dt> 
+		<span id="ID0EJALAShow" class="hide">▼</span><span id="ID0EJALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EJALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Agency responsible for managing some or all of the incident.</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EJALA')" href="#ID0EJALA">Hide Field Agency ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EIALA')" href="#ID0EIALA">
+                <dt>
+                  <span class="esriElement">Field</span> FireName</dt> 
+		<span id="ID0EIALAShow" class="hide">▼</span><span id="ID0EIALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EIALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Name of the incident</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EIALA')" href="#ID0EIALA">Hide Field FireName ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EHALA')" href="#ID0EHALA">
+                <dt>
+                  <span class="esriElement">Field</span> FireNum</dt> 
+		<span id="ID0EHALAShow" class="hide">▼</span><span id="ID0EHALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EHALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Fire Number assigned to the incident, typically assigned by the host agency or host unit.</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EHALA')" href="#ID0EHALA">Hide Field FireNum ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EGALA')" href="#ID0EGALA">
+                <dt>
+                  <span class="esriElement">Field</span> StartDate</dt> 
+		<span id="ID0EGALAShow" class="hide">▼</span><span id="ID0EGALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EGALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Date the incident started or date of origin</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EGALA')" href="#ID0EGALA">Hide Field StartDate ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EFALA')" href="#ID0EFALA">
+                <dt>
+                  <span class="esriElement">Field</span> PerimDate</dt> 
+		<span id="ID0EFALAShow" class="hide">▼</span><span id="ID0EFALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EFALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Date the perimeter was collected</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EFALA')" href="#ID0EFALA">Hide Field PerimDate ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EEALA')" href="#ID0EEALA">
+                <dt>
+                  <span class="esriElement">Field</span> Acres</dt> 
+		<span id="ID0EEALAShow" class="hide">▼</span><span id="ID0EEALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EEALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Number of acres of the incident</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EEALA')" href="#ID0EEALA">Hide Field Acres ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EDALA')" href="#ID0EDALA">
+                <dt>
+                  <span class="esriElement">Field</span> Year</dt> 
+		<span id="ID0EDALAShow" class="hide">▼</span><span id="ID0EDALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EDALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Calendar year the incident occured in.</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EDALA')" href="#ID0EDALA">Hide Field Year ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0ECALA')" href="#ID0ECALA">
+                <dt>
+                  <span class="esriElement">Field</span> Cause</dt> 
+		<span id="ID0ECALAShow" class="hide">▼</span><span id="ID0ECALAHide" class="show">►</span></a>
+              <div class="show" id="ID0ECALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Primary cause of the incident</pre>
+                    </dd>
+                  </dl>
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0ECALA')" href="#ID0ECALA">Hide Field Cause ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EBALA')" href="#ID0EBALA">
+                <dt>
+                  <span class="esriElement">Field</span> SHAPE_Length</dt> 
+		<span id="ID0EBALAShow" class="hide">▼</span><span id="ID0EBALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EBALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Length of feature in internal units.</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description of values</span> Positive real numbers that are automatically generated.</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EBALA')" href="#ID0EBALA">Hide Field SHAPE_Length ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EAALA')" href="#ID0EAALA">
+                <dt>
+                  <span class="esriElement">Field</span> SHAPE_Area</dt> 
+		<span id="ID0EAALAShow" class="hide">▼</span><span id="ID0EAALAHide" class="show">►</span></a>
+              <div class="show" id="ID0EAALA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Area of feature in internal units squared.</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description of values</span> Positive real numbers that are automatically generated.</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EAALA')" href="#ID0EAALA">Hide Field SHAPE_Area ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EALA')" href="#ID0EALA">Hide Details for object Washington Large Fires 1973-2016 ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0ELA')" href="#ID0ELA">Hide Fields ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAJA')" href="#ID0EAJA">Metadata Details 
+				<span id="ID0EAJAShow" class="hide">▼</span><span id="ID0EAJAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAJA">
+          <dt>
+            <span class="esriElement">Metadata language</span> English</dt>
+          <dt>
+            <span class="esriElement">Metadata character set</span> 
+			utf8 - 8 bit UCS Transfer Format</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Scope of the data described by the metadata</span> 
+	    dataset</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Last update</span> 2016-03-31</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">ArcGIS metadata properties</span>
+          </dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Metadata format</span> ArcGIS 1.0</dt>
+            <dt>
+              <span class="esriElement">Standard or profile used to edit metadata</span> FGDC</dt>
+            <dt>
+              <span class="esriElement">Metadata style</span> FGDC CSDGM Metadata</dt>
+            <br />
+            <br />
+            <dt>
+              <span class="esriElement">Created in ArcGIS for the item</span> 2016-03-31 12:38:45</dt>
+            <dt>
+              <span class="esriElement">Last modified in ArcGIS for the item</span> 2016-03-31 11:13:45</dt>
+            <br />
+            <br />
+            <dt>
+              <span class="esriElement">Automatic updates</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Have been performed</span> No</dt>
+            </dl>
+            <br />
+            <dt>
+              <span class="esriElement">Item location history</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Item copied or moved</span> 2016-03-31 12:38:45</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">From</span> \\dnr\regions\TEMP\neis490\metadata\test_wa_large_fires</dt>
+                <dt>
+                  <span class="esriElement">To</span> \\dnr\divisions\RP_GIS\historic_fires\metadata\test_wa_large_fires</dt>
+              </dl>
+            </dl>
+            <br />
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAJA')" href="#ID0EAJA">Hide Metadata Details ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAA')" href="#ID0EAA">Thumbnail and Enclosures 
+			<span id="ID0EAAShow" class="hide">▼</span><span id="ID0EAAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAA">
+          <dt>
+            <span class="esriElement">Enclosure</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Enclosure type</span> 
+File</dt>
+            <dt>
+              <span class="esriElement">Description of enclosure</span> original metadata</dt>
+            <dt>
+              <span class="esriElement">Original metadata document, which was translated</span> yes</dt>
+            <dt>
+              <span class="esriElement">Source metadata format</span> fgdc</dt>
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAA')" href="#ID0EAA">Hide Thumbnail and Enclosures ▲</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="fgdc head">
+      <a href="#fgdcMetadata" onclick="hideShow('fgdcMetadata')" title="Content created in the 9.3.1 FGDC metadata editor, and managed with the USGS MP Metadata Translator tool. Upgrade to ArcGIS Metadata to manage this content here, in the Description tab.">FGDC Metadata (read-only) <span id="fgdcMetadataShow" class="show">▼</span><span id="fgdcMetadataHide" class="hide">►</span></a>
+    </h2>
+    <div class="hide" id="fgdcMetadata" xmlns="">
+      <div class="box fgdc">
+        <div>
+          <a name="TopFGDC" id="TopFGDC" />
+        </div>
+        <div>
+          <h2 class="fgdc">
+            <a onclick="hideShow('ID0EOA')" href="#ID0EOA">Identification 
+			<span id="ID0EOAShow" class="hide">▼</span><span id="ID0EOAHide" class="show">►</span></a>
+          </h2>
+          <div class="show" id="ID0EOA">
+            <dl>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="element">Citation</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">Citation Information</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Title</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">historic_2016</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Geospatial Data Presentation Form</span> <span class="textOld">vector digital data</span></dt>
+                        </dl>
+                      </dd>
+                      <br />
+                    </dl>
+                  </dd>
+                  <dt>
+                    <span class="element">Description</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">Abstract</span>
+                      </dt>
+                      <dl>
+                        <dd>
+                          <pre class="wrap">
+                            <span class="textOld">Washington Large Fire dataset represents large fires in Washington State typically over 100 acres, but smaller perimeters have been included when data is available.</span>
+                          </pre>
+                        </dd>
+                      </dl>
+                      <dt>
+                        <span class="element">Purpose</span>
+                      </dt>
+                      <dl>
+                        <dd>
+                          <pre class="wrap">
+                            <span class="textOld">This data set was created to achieve consistant data, throughout Oregon and Washington for management, planning or analysis involving large fire history</span>
+                          </pre>
+                        </dd>
+                      </dl>
+                    </dl>
+                  </dd>
+                  <dt>
+                    <span class="element">Spatial Domain</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">Bounding Coordinates</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">West Bounding Coordinate</span> <span class="textOld">-123.946150</span></dt>
+                          <dt>
+                            <span class="element">East Bounding Coordinate</span> <span class="textOld">-116.504119</span></dt>
+                          <dt>
+                            <span class="element">North Bounding Coordinate</span> <span class="textOld">49.147852</span></dt>
+                          <dt>
+                            <span class="element">South Bounding Coordinate</span> <span class="textOld">44.968381</span></dt>
+                        </dl>
+                      </dd>
+                    </dl>
+                  </dd>
+                  <br />
+                  <dt>
+                    <span class="element">Data Set Credit</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">
+                        <span class="textOld">Data is compiled in coordination with Northwest Coordination Center in Portland, OR.</span>
+                      </pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="element">Native Data Set Environment</span>
+                  </dt>
+                  <dd>
+                    <span class="textOld"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</span>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+            <br />
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EOA')" href="#ID0EOA">Hide Identification  ▲</a>
+            </div>
+          </div>
+          <h2 class="fgdc">
+            <a onclick="hideShow('ID0ENA')" href="#ID0ENA">Spatial Data Organization 
+			<span id="ID0ENAShow" class="hide">▼</span><span id="ID0ENAHide" class="show">►</span></a>
+          </h2>
+          <div class="show" id="ID0ENA">
+            <dl>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="element">Direct Spatial Reference Method</span> <span class="textOld">Vector</span></dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="element">Point and Vector Object Information</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">SDTS Terms Description</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">SDTS Point and Vector Object Type</span> <span class="textOld">GT-polygon composed of chains</span></dt>
+                          <dt>
+                            <span class="element">Point and Vector Object Count</span> <span class="textOld">509</span></dt>
+                        </dl>
+                      </dd>
+                      <br />
+                    </dl>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0ENA')" href="#ID0ENA">Hide Spatial Data Organization  ▲</a>
+            </div>
+          </div>
+          <h2 class="fgdc">
+            <a onclick="hideShow('ID0EMA')" href="#ID0EMA">Spatial Reference 
+			<span id="ID0EMAShow" class="hide">▼</span><span id="ID0EMAHide" class="show">►</span></a>
+          </h2>
+          <div class="show" id="ID0EMA">
+            <dl>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="element">Horizontal Coordinate System Definition</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">Planar</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Map Projection</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Map Projection Name</span> <span class="textOld">NAD 1983 HARN StatePlane Washington South FIPS 4602 Feet</span></dt>
+                              <dt>
+                                <span class="element">Lambert Conformal Conic</span>
+                              </dt>
+                              <dd>
+                                <dl>
+                                  <dt>
+                                    <span class="element">Standard Parallel</span> <span class="textOld">45.83333333333334</span></dt>
+                                  <dt>
+                                    <span class="element">Standard Parallel</span> <span class="textOld">47.33333333333334</span></dt>
+                                  <dt>
+                                    <span class="element">Longitude of Central Meridian</span> <span class="textOld">-120.5</span></dt>
+                                  <dt>
+                                    <span class="element">Latitude of Projection Origin</span> <span class="textOld">45.33333333333334</span></dt>
+                                  <dt>
+                                    <span class="element">False Easting</span> <span class="textOld">1640416.666666667</span></dt>
+                                  <dt>
+                                    <span class="element">False Northing</span> <span class="textOld">0.0</span></dt>
+                                </dl>
+                              </dd>
+                            </dl>
+                          </dd>
+                          <br />
+                          <dt>
+                            <span class="element">Planar Coordinate Information</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Planar Coordinate Encoding Method</span> <span class="textOld">coordinate pair</span></dt>
+                              <dt>
+                                <span class="element">Coordinate Representation</span>
+                              </dt>
+                              <dd>
+                                <dl>
+                                  <dt>
+                                    <span class="element">Abscissa Resolution</span> <span class="textOld">0.0003280833333333334</span></dt>
+                                  <dt>
+                                    <span class="element">Ordinate Resolution</span> <span class="textOld">0.0003280833333333334</span></dt>
+                                </dl>
+                              </dd>
+                              <dt>
+                                <span class="element">Planar Distance Units</span> <span class="textOld">Foot_US</span></dt>
+                            </dl>
+                          </dd>
+                          <br />
+                        </dl>
+                      </dd>
+                      <dt>
+                        <span class="element">Geodetic Model</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Horizontal Datum Name</span> <span class="textOld">D North American 1983 HARN</span></dt>
+                          <dt>
+                            <span class="element">Ellipsoid Name</span> <span class="textOld">GRS 1980</span></dt>
+                          <dt>
+                            <span class="element">Semi-major Axis</span> <span class="textOld">6378137.0</span></dt>
+                          <dt>
+                            <span class="element">Denominator of Flattening Ratio</span> <span class="textOld">298.257222101</span></dt>
+                        </dl>
+                      </dd>
+                    </dl>
+                  </dd>
+                  <br />
+                </dl>
+              </dd>
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EMA')" href="#ID0EMA">Hide Spatial Reference  ▲</a>
+            </div>
+          </div>
+          <h2 class="fgdc">
+            <a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Entities and Attributes 
+				<span id="/metadata/eainfo//text()[1]Show" class="hide">▼</span><span id="/metadata/eainfo//text()[1]Hide" class="show">►</span></a>
+          </h2>
+          <div class="show" id="/metadata/eainfo//text()[1]">
+            <a name="Entity and Attribute Information" id="Entity and Attribute Information" />
+            <dl>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="element">Detailed Description</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">Entity Type</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Entity Type Label</span> <span class="textOld">Washington Large Fires 1973-2016</span></dt>
+                          <dt>
+                            <span class="element">Entity Type Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Large fire perimeters for fires in Washington typically over 100 acres, but smaller perimeters have been included when data is available.</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">OBJECTID</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Internal feature number.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Sequential unique whole numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">SHAPE</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Feature geometry.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Coordinates defining the features.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">UnitID</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Abbreviation for the hosting unit of the agency that was responsible for all or some management of the incident.</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Agency</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Agency responsible for managing some or all of the incident.</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">FireName</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Name of the incident</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">FireNum</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Fire Number assigned to the incident, typically assigned by the host agency or host unit.</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">StartDate</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Date the incident started or date of origin</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">PerimDate</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Date the perimeter was collected</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Acres</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Number of acres of the incident</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Year</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Calendar year the incident occured in.</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Cause</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Primary cause of the incident</span>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">SHAPE_Length</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Length of feature in internal units.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Positive real numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">SHAPE_Area</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Area of feature in internal units squared.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Positive real numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                    </dl>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Hide Entities and Attributes ▲</a>
+            </div>
+          </div>
+          <h2 class="fgdc">
+            <a onclick="hideShow('ID0EKA')" href="#ID0EKA">Metadata Reference 
+			<span id="ID0EKAShow" class="hide">▼</span><span id="ID0EKAHide" class="show">►</span></a>
+          </h2>
+          <div class="show" id="ID0EKA">
+            <dl>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="element">Metadata Date</span> <span class="textOld">2016-03-31</span></dt>
+                  <dt>
+                    <span class="element">Metadata Standard Name</span> <span class="textOld">FGDC Content Standard for Digital Geospatial Metadata</span></dt>
+                  <dt>
+                    <span class="element">Metadata Standard Version</span> <span class="textOld">FGDC-STD-001-1998</span></dt>
+                  <br />
+                  <br />
+                </dl>
+              </dd>
+            </dl>
+            <br />
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EKA')" href="#ID0EKA">Hide Metadata Reference  ▲</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
