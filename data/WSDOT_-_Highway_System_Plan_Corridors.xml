@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20191108</pubdate>
+                <title>Corridor Sketch Initiative Corridors</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://data.wsdot.wa.gov/arcgis/rest/services/Planning/HighwaySystemPlan/MapServer/0</onlink>
+                <onlink>https://data.wsdot.wa.gov/geospatial/DOT_Planning/CorridorSketchCorridors.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>WSDOT's Corridor Sketch Initiative is a set of planning activities that engages the agency's partners to determine the context and performance of state highway corridors and identify high-level strategies for addressing performance gaps. The initiative complements and supports regional planning processes around the state and serves as the foundation for practical solutions and integrated scoping. WSDOT uses the results of the Corridor Sketch Initiative to determine where the agency should do more in depth planning and analysis. For more information on the Corridor Sketch Initiative, go to https://wsdot.wa.gov/engineering-standards/planning-guidance/planning-study-guidance/corridor-sketch-initiative. WSDOT divided the state's highway system into 304 functional segments that serve communities, economic regions and regional networks. The agency considered traffic characteristics, Freight and Goods Transportation System classification, access management, roadway characteristics, seasonal closures, land use, and proximity to intermodal centers such as ports or transit centers.</abstract>
+            <purpose>This layer displays the geographic extent of the 304 corridors that make up the statewide highway system. This does not include ferry routes. The attributes provide information on mobility performance gaps by corridor as well as which corridors have published corridor sketch summary documents. This layer can be used to locate further information about the corridors through the summary documents or to compare corridor extents to other spatial data.</purpose>
+            <supplinf>WSDOT started work on the Corridor Sketch Initiative in 2015. This phase of the initiative involved breaking up the state highway system into functional corridors, screening the system for congestion, and working with the agency's regional planning offices and partners to collect baseline information which was entered into a database. The next phase of the initiative involved an extensive engagement process with partners across the state to verify performance gaps identified in WSDOT's screen and collaboratively identify root causes of, as well as potential strategies to address, those gaps. The agency is compiling this information into summary documents. Links to published summaries are aviailable through this layer or at https://wsdot.wa.gov/engineering-standards/planning-guidance/planning-study-guidance/corridor-sketch-initiative The range of the data is 2015-2017. More specifically, the percent congested data is from 2015. Tthe information in the summaries is from 2016-2017. The Summary URL links are current.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20150101</begdate>
+                    <enddate>20171231</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-124.674937</westbc>
+                <eastbc>-116.861308</eastbc>
+                <northbc>49.042695</northbc>
+                <southbc>45.504776</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Corridor Sketch Initiative</themekey>
+                <themekey>Highway System</themekey>
+                <themekey>Corridor Sketch</themekey>
+                <themekey>WSDOT</themekey>
+                <themekey>Transportation</themekey>
+                <themekey>Planning</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+                <themekey>planningCadastre</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Washington State</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>Data provided here is used by the Washington State Department of Transportation's transportation partners, government entities, schools, private businesses, and the general public. The Washington State Department of Transportation shall not be liable for any activity involving these data, including, but not limited to, lost profits or savings or any other economic or consequential damages. Nor does the Department warrant the fitness of the data for use for a particular purpose, or the installation of the data, its use, or the results obtained.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Department of Transportation, Multimodal Planning and Data Division</cntorg>
+                    <cntper>Angie Davis</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>PO Box 47370</address>
+                    <city>Olympia</city>
+                    <state>WA</state>
+                    <postal>98504</postal>
+                </cntaddr>
+                <cntvoice>360-705-7967</cntvoice>
+                <cntemail>Angie.Davis@wsdot.wa.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    </idinfo>
+    <dataqual>
+        <complete>This dataset covers all of the mainline state highway system in Washington State including Interstate highways, US Route highways, and State Route highways as well as spurs, couplets, reversible lanes, and separated HOV facilities. This does not include ramps.</complete>
+        <lineage>
+            <procstep>
+                <procdesc>All data was imported to a geodatabase table format from a CSV file. Data was collected from multiple sources into the CSV file including an Access database and excel workbooks. The table was then joined with a feature with the extent of the corridors based on the attribute CorridorID. All calculations were done outside of GIS. The tabular data comes from an Access database. Particularly CorridorID, CorridorName, RegionName, and RegionOrgName. The PercentCongested data was also stored in the access database and comes from the 2016 mobility screen conducted for the corridor sketch initiative. This screen used mainly the Highway Segment Analysis Program but also other datasets like the National Performance Research Dataset (NPMRDS) from HERE. Summary URLs come from WSDOT’s corridor sketch website</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Edited/updated "SummaryURL" attributes for all features.</procdesc>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Washington State Department of Transportation, Multimodal Planning and Data Division</cntorg>
+                            <cntper>Julie Jackson</cntper>
+                        </cntorgp>
+                        <cntemail>julie.jackson@wsdot.wa.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <ptvctcnt>304</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>CorridorSketchCorridors</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>RegionOrgName</attrlabl>
+                <attrdef>The name of WSDOT's regional planning office that has lead responsibility for the corridor.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Status</attrlabl>
+                <attrdef>The publication status of the Corridor Sketch Summary.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SummaryURL</attrlabl>
+                <attrdef>The web address (or URL) of the Corridor Sketch Summary, if available.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PercentCongested</attrlabl>
+                <attrdef>The portion of the corridor's length that experienced congestion in 2015 as defined in the Corridor Sketch User Guide.</attrdef>
+                <attrdefs>Corridor Sketch User Guide</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>RegionName</attrlabl>
+                <attrdef>The textual description of the geographic and administrative areas of responsibility of the Washington State Department of Transportation within the State of Washington as described in the Chart Of Accounts.</attrdef>
+                <attrdefs>WSDOT Application - DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PublishDate</attrlabl>
+                <attrdef>The date that the Corrodor Sketch Summary being published was provided for publication.</attrdef>
+                <attrdefs>WSDOT Application - DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GlobalID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.STLength()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CorridorName</attrlabl>
+                <attrdef>The full name of the corridor as shown in the Corridor Sketch Summary</attrdef>
+                <attrdefs>Corridor Sketch Summary</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CorridorID</attrlabl>
+                <attrdef>The unique three digit numeric identifier given to a corridor.</attrdef>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20180403</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Department of Transportation, Multimodal Planning and Data Division</cntorg>
+                    <cntper>Julie Jackson</cntper>
+                </cntorgp>
+                <cntvoice>360-596-8919</cntvoice>
+                <cntemail>julie.jackson@wsdot.wa.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>For Planning use only. The Washington State Department of Transportation shall not be liable for any activity involving these data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</metuc>
+    </metainfo>
+</metadata>
