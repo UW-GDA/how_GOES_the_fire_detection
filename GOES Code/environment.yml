@@ -1,0 +1,14 @@
+name: goesenv
+channels:  
+  - conda-forge
+dependencies:
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  - gdal
+  - pyproj
+  - requests
+  - rasterio
+  - netcdf4
